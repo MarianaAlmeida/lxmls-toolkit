@@ -39,8 +39,15 @@ class MultinomialNaiveBayes(lc.LinearClassifier):
         # (*) recall that Python starts indices at 0, so an index of 4
         # corresponds to the fifth feature!
 
-        # Complete Exercise 1.1 
+        # ----------
+        # Solution to Exercise 1.1
+
         raise NotImplementedError("Complete Exercise 1.1")
+
+        # End solution to Exercise 1.1
+        # ----------
+
+
 
         params = np.zeros((n_words+1, n_classes))
         for i in xrange(n_classes):

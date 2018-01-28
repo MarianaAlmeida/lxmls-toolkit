@@ -87,6 +87,8 @@ class PytorchRNN(RNN):
         # ----------
         # Solution to Exercise 6.2
 
+        raise NotImplementedError("Implement Exercise 6.2")
+
         # End of solution to Exercise 6.2
         # ----------
 

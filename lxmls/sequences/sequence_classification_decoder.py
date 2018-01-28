@@ -95,7 +95,9 @@ class SequenceClassificationDecoder:
         # Most likely sequence.
         best_path = -np.ones(length, dtype=int)
 
-        # Complete Exercise 2.8 
+        # ----------
+        # Solution to Exercise 2.8
+
         raise NotImplementedError("Complete Exercise 2.8")
 
         #### Little guide of the implementation ####################################
@@ -112,9 +114,11 @@ class SequenceClassificationDecoder:
         #
         # return best_path and best_score
         ############################################################################
- 
-        return best_path, best_score
 
+        # End of solution to Exercise 2.8
+        # ----------
+
+        return best_path, best_score
     def run_forward_backward(self, initial_scores, transition_scores, final_scores, emission_scores):
         log_likelihood, forward = self.run_forward(initial_scores, transition_scores, final_scores, emission_scores)
         print 'Log-Likelihood =', log_likelihood

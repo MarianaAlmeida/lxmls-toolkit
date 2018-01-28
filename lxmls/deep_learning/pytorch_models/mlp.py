@@ -46,6 +46,8 @@ class PytorchMLP(MLP):
         # ----------
         # Solution to Exercise 3.4
 
+        raise NotImplementedError("Implement Exercise 3.4")
+
         # End of solution to Exercise 3.4
         # ----------
 

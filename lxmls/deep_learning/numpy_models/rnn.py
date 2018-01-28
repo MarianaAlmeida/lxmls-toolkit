@@ -87,6 +87,7 @@ class NumpyRNN(RNN):
         # ----------
         # Solution to Exercise 6.1
 
+        raise NotImplementedError("Implement Exercise 6.2")
         # End of Solution to Exercise 6.1
         # ----------
 
