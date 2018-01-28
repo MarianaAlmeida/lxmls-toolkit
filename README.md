@@ -12,9 +12,11 @@ Machine learning toolkit for natural language processing. Written for Lisbon Mac
 
 **Installation of Modules and Tools**
 
-* Read instructions in the Day 0 chapter of the LXMLS guide
+* Read instructions in the chapter zero of `https://github.com/LxMLS/lxmls-guide`
 
-* **NOTE:** You do not need to install the toolkit, just the needed modules. You can work from this folder
+* You do **not** need to install the toolkit, just the needed modules. You can work from this folder. 
+
+* Guiding jupyter notebooks can be found in `labs/notebooks/` python versions in `labs/scripts/`
 
 **Solving exercises from previous days**
 
