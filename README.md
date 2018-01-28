@@ -1,24 +1,43 @@
 ### Summary
 
-Machine learning toolkit for natural language processing. Written for Lisbon Machine Learning Summer School (lxmls.it.pt). This is the student version. Some parts of the code have been removed for the students to complete. The school covers
+Machine learning toolkit for natural language processing. Written for Lisbon Machine Learning Summer School (lxmls.it.pt). This covers
 
-* Scientific Python and Mathematical background 
+* Scientific Python and Mathematical background
 * Linear Classifiers
-* Sequence Models 
+* Sequence Models
 * Structured Prediction
 * Syntax and Parsing
 * Feed-forward models in deep learning
 * Sequence models in deep learning
 
-**Installation of Modules and Tools**
+Machine learning toolkit for natural language processing. Written for [LxMLS - Lisbon Machine Learning Summer School](lxmls.it.pt)
 
-* Read instructions in the Day 0 chapter of the LXMLS guide.
+## Instructions for Students
 
-* **NOTE:** You do not need to install the toolkit, just the needed modules. You can work from this folder
+* Use the student branch, not this one!
 
-**Solving exercises from previous days**
+* You do not need to run setup.py or pip install, read instructions in the Day 0 chapter of the [LxMLS guide](https://github.com/LxMLS/lxmls_guide).
 
-You can solve and reset exercises from previous days with e.g.
+## Install with Anaconda
 
-    python ./solve.py day1  
-    python ./solve.py --undo day1  
+The simplest method is to use `Anaconda`to handle your packages as described on
+`Day 0` of the lxmls-guide.
+
+## Alternative install with pip and virtualenv
+
+If you like `pip`, install the toolkit modules
+
+    virtualenv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+
+Then get the right `pip install` command for your platform for pytorch from
+`http://pytorch.org/` and apply them. Finally call
+
+    python setup.py develop
+
+to instal the toolkit in a way that is modifiable.
+
+Bear in mind that the main purpose of the toolkit is educative. You may resort
+to other toolboxes if you are looking for efficient implementations of the
+algorithms described.
