@@ -54,7 +54,7 @@ class DependencyDecoder:
         # ----------
         # Solution to Exercise 5.3.6
 
-        raise NotImplementedError("Complete Exercise 4.3.6")
+        raise NotImplementedError("Complete Exercise 5.3.6")
 
         # End of Solution to Exercise 5.3.6
         # ----------
